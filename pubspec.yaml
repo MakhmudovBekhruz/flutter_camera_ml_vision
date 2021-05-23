@@ -16,11 +16,13 @@ dependencies:
     #  path: packages/firebase_ml_vision
   firebase_core: ^0.5.0+1
   visibility_detector: ^0.2.0
-  path_provider: ^2.0.1
+  path_provider: any
   pedantic: ^1.11.0
   device_info: ^1.0.0
   camera: any
   collection: ^1.15.0
+  shared_preferences: ^0.5.12+4
+  shared_preferences_windows: any
 
 dev_dependencies:
   flutter_test:
